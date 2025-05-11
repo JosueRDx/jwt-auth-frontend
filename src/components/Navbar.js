@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="navbar-nav ms-auto">
         {currentUser ? (
           <li className="nav-item">
-            <a href="/login" className="nav-link" onClick={logout}>Salir</a>
+            <Link to="/login" className="nav-link" onClick={logout}>Salir</Link>
           </li>
         ) : (
           <>
